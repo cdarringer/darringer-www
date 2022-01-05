@@ -1,0 +1,13 @@
+/* hello my name is style */
+body { background-color:b00000 }
+h1 { color:ffffff; 
+     font-family: "Trebuchet MS", "Arial"; 
+     font-size:14pt; 
+     letter-spacing: 3px; 
+     text-transform:uppercase }
+li { color:ffffff; 
+     font-family: "Trebuchet MS", "Arial"; 
+     font-size:10pt; 
+     letter-spacing: 3px; 
+     text-transform:lowercase }
+a { color:b0b0b0; }
