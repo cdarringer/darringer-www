@@ -1,3 +1,17 @@
 /* hello my name is Theo */
+ ul
+  {
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+    background-color: blue;
+    overflow: auto;
+  }
+li 
+  {
+    float: left; 
+    margin: 10px;
+    padding: 5px;
+  }
 body { background-color:0000b0 }
 p { color:b0b0b0; }
