@@ -8,19 +8,18 @@ ul
     overflow: auto;
   }
 
+img
+{width:500px;}
+
 
   li 
-  {
-    float: left; 
+  {float: left; 
     margin: 10px;
-    padding: 5px;
-  }
+    padding: 5px;}
 
 
 body 
-{ 
-  background-color:111111;
-}
+{background-color:111111;}
 
 
 p { color:b0b0b0; }
