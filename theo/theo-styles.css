@@ -1,13 +1,5 @@
 /* hello my name is Theo */
 body { background-color:b00000;}
-ul
-  {
-    list-style-type: none;
-    margin: 10px;
-    padding: 5px;
-    background-color: orange;
-    overflow: auto;
-  }
 
 img
 {width:500px;}
