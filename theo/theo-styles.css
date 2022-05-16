@@ -1,4 +1,5 @@
 /* hello my name is Theo */
+body { background-color:b00000 }
 ul
   {
     list-style-type: none;
@@ -16,10 +17,6 @@ img
   {float: left; 
     margin: 10px;
     padding: 5px;}
-
-
-body 
-{background-color:111111;}
 
 
 p { color:ffffff; }
