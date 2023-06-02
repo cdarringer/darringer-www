@@ -3,10 +3,13 @@
 
 body {
   background-color: #f0f0f0;
+Font-family: Arial 
+color:657e9c;
+width:2000px;
+}
 
 
-img
-{width:500px;}
+
 
 
   li 
@@ -14,7 +17,7 @@ img
     margin: 10px;
     padding: 5px;}
 
-H1 {color:0d325e;
+H1 {color:000000;
 Font-family: "Courier New" 
 width:500px;}
 
@@ -25,8 +28,8 @@ Font-family: "Courier New"
 p {
 Font-family: Arial 
 color:657e9c;
-width:500px; }  
+width:750px; }  
 
 p1 {color: 657e9c 
 Font-family: Arial 
-width:500px;}
+width:750px;}
