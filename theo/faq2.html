@@ -1,11 +1,14 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-<head>
+
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
   <meta name="keywords" lang="en-us" content="Theo Darringer" />
   <meta name="description" content="Theo Darringer home page on darringer.com" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
+<html>
+<head>
+  <title>Free Go-Kart Plans - FAQ</title>
+ 
+<style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -101,96 +104,55 @@
       clear: both;
     }
   </style>
-</head>
-
-
-<!----------------------END OF CSS START OF HTML------------->
-
-
-<body>
-  <header>
+<header>
     <h1>freeplansandmore.com</h1>
   </header>
 
   <div class="container">
     <div class="menu">
-      <a href="#anchor1">Home (Designs)</a>
+      <a href="index.html">Back to Home</a>
       <a href="articles.html">Articles</a>
-      <a href="faq.html">FAQ</a>
+      <a href="faq.html">Back to FAQ</a>
       <a href="#anchor5">Questions? Contact Us</a>
     </div>
+  <script>
+    function submitComment() {
+      var commentInput = document.getElementById("comment-input");
+      var commentText = commentInput.value;
 
-    <h2>Our Free Designs</h2>
+      if (commentText.trim() !== "") {
+        var commentList = document.getElementById("comment-list");
+        var newComment = document.createElement("li");
+        newComment.innerText = commentText;
+        commentList.appendChild(newComment);
+        commentInput.value = "";
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Free Go-Kart Plans - FAQ</h1>
+    
+    <ul id="comment-list" class="comment-list">
+      <!-- Existing comments -->
+      <li><b>User3421 (6/2/2021):</b> <br>Hey, I'm looking for free go-kart plans. Any suggestions on where to find them?</li>
+      
+      <li><b>User1397 (6/3/2021):</b> <br>Absolutely! I found some great go-kart plans on the website <a href="https://www.freecartplans.com">FreeCartPlans.com</a>. They have a wide variety of free plans for different types of go-karts.</li>
 
-    <hr>
-    <div id="anchor1">
-      <h3>A "Budget" $200 Go Kart Design</h3>
+      <li><b>User3421 (6/4/2021):</b> <br>Thanks for the recommendation. I'll check it out.</li>
 
-<a href="gokart1.html">
-      <img src="images/gk1i1.png" width="400" height="300" alt="Go Kart 1" title="GK1"> </a>
+      <li><b>User3421 (6/12/2021):</b> <br>I just downloaded the plans from FreeCartPlans.com, and they're fantastic! They have detailed instructions and diagrams. Highly recommend it!</li>
 
-      <p>
-        This is our cheapest go kart. The approximate specifications are below.
-        <a href="gokart1.html">Click here for the free design.</a>
-      </p>
+      <li><b>User1397 (6/13/2021):</b> <br>I'm glad you found it helpful - Have fun building your go-kart!</li>
 
-      <p>
-        <b>Speed:</b> 12mph<br>
-        <b>Range:</b> 4-5 miles<br>
-        <b>Build Time:</b> 5  hours<br>
-        <b>Cost:</b> $200<br>
-        <b>Difficulty:</b> Easy<br>
-      </p>
-
-      <div class="clear"></div>
-    </div>
-
-    <hr>
-    <div id="anchor2">
-      <h3>A $500 Go Kart Design</h3>
-
-      <img src="images/gokart2.png" width="400" height="300" alt="Go Kart 2" title="GK2">
-
-      <p>
-        This is our mid-range go kart design. The approximate specifications are below.
-        <!-- Link to the $500 go kart design page -->
-      </p>
-
-      <p>
-        <b>Speed:</b> 20mph<br>
-        <b>Range:</b> 10 miles<br>
-        <b>Build Time:</b> 60 hours<br>
-        <b>Cost:</b> $500<br>
-        <b>Difficulty:</b> Intermediate<br>
-      </p>
-
-      <div class="clear"></div>
-    </div>
-
-    <hr>
-    <div id="anchor3">
-      <h3>A $1000 Go Kart Design</h3>
-
-      <img src="images/gokart3.png" width="400" height="300" alt="Go Kart 3" title="GK3">
-
-      <p>
-        This is our high-end go kart design. The approximate specifications are below.
-        <!-- Link to the $1000 go kart design page -->
-      </p>
-
-      <p>
-        <b>Speed:</b> 30mph<br>
-        <b>Range:</b> 20 miles<br>
-        <b>Build Time:</b> 80 hours<br>
-        <b>Cost:</b> $1000<br>
-        <b>Difficulty:</b> Advanced<br>
-      </p>
-
-      <div class="clear"></div>
-    </div>
-
-    <hr>
-    <div id="anchor5">
+      <li><b>User1743 (7/14/2021):</b> <br>Just made it - works great, a little slow but I am thinking of upgrading motor to 36V.</li>
+    </ul>
+    
+    <textarea id="comment-input" placeholder="Comments not available"></textarea>
+    <button onclick="submitComment()">Comments not available</button>
+  </div>
+  <div id="anchor5">
       <h2>Questions? Contact Us</h2>
 
       <p>
@@ -202,7 +164,7 @@ You can also visit our <a href="faq.html">FAQ</a> section.
       <hr>
     </div>
   </div>
-
+<br>
   <footer>
     <img src="images/capitalinvlogo.png" alt="Logo 1">
     <img src="images/logo.png" width="200" height="100" alt="Go Kart 2" alt="Logo 2">
