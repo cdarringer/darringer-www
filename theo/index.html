@@ -5,116 +5,24 @@
   <meta name="keywords" lang="en-us" content="Theo Darringer" />
   <meta name="description" content="Theo Darringer home page on darringer.com" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #ffffff;
-      color: gray;
-      padding: 1px;
-      text-align: center;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    .menu {
-      background-color: lightgray;
-      padding: 10px;
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-
-    .menu a {
-      color: black;
-      text-decoration: none;
-      border: 2px solid black;
-      padding: 5px 10px;
-      border-radius: 2px;
-      background-color: #ffffff;
-    }
-
-    h1 {
-      font-family: Arial, sans-serif;
-      margin-top: 40px;
-      color: gray;
-    }
-
-    h2, h3 {
-      font-family: Arial, sans-serif;
-    }
-
-    hr {
-      border: none;
-      border-top: 1px solid #333333;
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
-
-    p {
-      line-height: 1.5;
-    }
-
-    img {
-      float: left;
-      margin-right: 20px;
-      margin-bottom: 10px;
-      border: solid black 1px;
-    }
-
-    .smaller-break {
-      line-height: 0.5;
-    }
-
-    footer {
-      background-color: #ffffff;
-      padding: 20px;
-      text-align: center;
-      border: solid white 1px;
-      width: 100%;
-      box-sizing: border-box;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-
-    footer img {
-      width: 150px;
-      height: 75px;
-      margin: 10px;
-      border: none;
-    }
-
-    .clear {
-      clear: both;
-    }
-  </style>
+  <title>Link CSS to HTML</title>
+<link rel="stylesheet" type="text/css" href="theo-styles.css"
 </head>
 
 
 <!----------------------END OF CSS START OF HTML------------->
 
 
+
+
 <body>
   <header>
-    <h1>freeplansandmore.com</h1>
+     <h1 style="font-family: 'Gill Sans', sans-serif;">freeplansandmore.com</h1>
   </header>
 
   <div class="container">
-    <div class="menu">
-      <a href="#anchor1">Home (Designs)</a>
+<div class="menu" style="font-family: 'Gill Sans', sans-serif;">
+      <a href="index.html"> Back to Home</a>
       <a href="articles.html">Articles</a>
       <a href="faq.html">FAQ</a>
       <a href="#anchor5">Questions? Contact Us</a>
@@ -169,8 +77,42 @@
     </div>
 
     <hr>
+<h3>Recommended Articles</h3>
     <div id="anchor3">
-      <h3>More Designs Coming Soon</h3>
+      
+<div class="toc-container">
+
+      <img src="images/gk1i1.png" width="250" height="200" alt="Go Kart 1" class="no-border"> </a>
+  <div class="toc-item">
+
+ <div></div>
+    <a href="artpromote.html" class="toc-link"><h3 style="font-family: Impact; color: #000000;">I Built a Go Kart for $200, Now You Can Too&nbsp;</h3> 
+<p style="color:#595959;">In this article we will go over... <br>
+- The specifications <br>
+- How long it takes to build<br> 
+- An overview of the official plans <br> 
+</p></a>
+
+  </div>
+  <div class="toc-item">
+    <div></div>
+  
+  </div>
+  <div class="toc-item">
+    <div></div>
+    
+  </div>
+
+</div>
+
+<br>
+
+<!----->
+
+
+
+
+
 
     <hr>
     <div id="anchor5">
@@ -184,12 +126,40 @@ You can also visit our <a href="faq.html">FAQ</a> section.
 
       <hr>
     </div>
-  </div>
+  </div> 
+
+
+<button id="copyButton">
+  <span class="icon">&#128203;</span> Copy Link
+</button>
+
+
 
   <footer>
     <img src="images/capitalinvlogo.png" alt="Logo 1">
     <img src="images/logo.png" width="200" height="100" alt="Go Kart 2" alt="Logo 2">
     <img src="https://cdn.logojoy.com/wp-content/uploads/2018/05/01104846/1952-768x591.png" alt="Logo 3">
   </footer>
+<center>
+<p>Darringer VVIS | © Copyright All Credible Rights Reserved, 2023</p></center>
+
+<script>
+document.getElementById('copyButton').addEventListener('click', function() {
+  var link = 'darringer.com/theo';
+
+  var tempInput = document.createElement('input');
+  tempInput.value = link;
+  document.body.appendChild(tempInput);
+
+  tempInput.select();
+  document.execCommand('copy');
+  document.body.removeChild(tempInput);
+
+  alert('Link copied!');
+});
+</script>
+
+
+
 </body>
 </html>
