@@ -14,7 +14,7 @@ table {
   }
 
 body {
-      font-family: Palatino, serif;
+      font-family: 'Gill Sans', sans-serif;
       margin: 0;
       padding: 0;
     }
@@ -33,24 +33,22 @@ body {
       padding: 20px;
     }
 
-    .menu {
-      background-color: lightgray;
-      padding: 10px;
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
+   .menu {
+  background-color: #4a4646; 
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+   }
 
     .menu a {
-      color: black;
+      color: lightgray;
       text-decoration: none;
-      border: 2px solid black;
       padding: 5px 10px;
-      border-radius: 2px;
-      background-color: #ffffff;
+      border-radius: 5px;
     }
 
     h1 {
@@ -155,5 +153,5 @@ body {
 
 .container .menu a:hover {
   background-color: lightgray;
+  color: black
 }
-

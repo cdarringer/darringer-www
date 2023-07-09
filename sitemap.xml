@@ -4,23 +4,22 @@
 
 
 	<url>
-		<loc>http://darringer.com/theo/artpromote.html</loc>
-		<lastmod>2023-07-06</lastmod>
-		<priority>1.0</priority>
+		<loc>http://darringer.com/theo/artpromote.html/</loc>
+		<lastmod>2023-07-08</lastmod>
+		<priority>0.8</priority>
 		
 	</url>
 
 
 
 	<url>
-		<loc>https://darringer.com/</loc>
+		<loc>http://darringer.com/</loc>
 		<lastmod>2023-06-12</lastmod>
 	</url>
 
 
-
 	<url>
-		<loc>https://darringer.com/theo/</loc>
+		<loc>http://darringer.com/theo/</loc>
 		<lastmod>2023-06-12</lastmod>
 		
 	</url>
@@ -28,6 +27,6 @@
 
 
 	<url>
-		<loc>https://darringer.com/carta/</loc>
+		<loc>http://darringer.com/carta/</loc>
 	</url>
 </urlset>
