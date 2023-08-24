@@ -20,6 +20,11 @@ body {
   padding: 20px;
 }
 
+.alignright {
+    float: right;
+    margin: 0 0 10px 10px; /* Adjust the margin as needed */
+    border: none;
+  }
 
     header {
       background-color: #ffffff;
