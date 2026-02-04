@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', sans-serif;
+    background-color: #808080;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px;
+    z-index: 10;
+}
+
+header h1 {
+    color: white;
+    font-family: courier new;
+    font-size: 4.5em;
+    font-weight: bold;
+    letter-spacing: 6px;
+    text-transform: lowercase;
+    margin: 0;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.quote {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    padding: 0 20px;
+    transform: translateY(-50%);
+}
+
+.quote-text {
+    color: white;
+    font-style: italic;
+    font-size: 3em;
+    margin: 0 0 10px 0;
+}
+
+.quote-author {
+    color: white;
+    font-style: italic;
+    font-size: 2.4em;
+    margin: 0;
+}
