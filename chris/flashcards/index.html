@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Game</title>
+    <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="flashcards.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Stack Selection Screen -->
+        <div id="stack-selection" class="screen active">
+            <h1>Flashcard Game</h1>
+            <h2>Select a Stack</h2>
+            <div class="stack-list">
+                <button class="stack-button" data-stack="polish-days-week">Polish Days of the Week</button>
+                <button class="stack-button" data-stack="polish-days-month">Polish Days of the Month</button>
+            </div>
+        </div>
+
+        <!-- Game Screen -->
+        <div id="game-screen" class="screen">
+            <div class="game-header">
+                <div class="progress">
+                    <span id="progress-text">0 / 0</span>
+                </div>
+                <button id="back-button" class="back-button">Back to Stacks</button>
+            </div>
+            <div class="card-container">
+                <div id="card-display">
+                    <h2 id="english-word"></h2>
+                    <div class="input-container">
+                        <input type="text" id="polish-input" placeholder="Type the Polish translation..." autocomplete="off">
+                        <button id="submit-button">Submit</button>
+                    </div>
+                    <div id="feedback" class="feedback"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Completion Screen -->
+        <div id="completion-screen" class="screen">
+            <h1>Congratulations!</h1>
+            <p>You've completed all the cards!</p>
+            <button id="play-again-button" class="play-again-button">Play Again</button>
+        </div>
+    </div>
+
+    <script src="flashcards.js"></script>
+</body>
+</html>
